@@ -6,7 +6,7 @@ import { Reference } from './reference';
 import { Type } from './type';
 
 export class Composition {
-  protected resourceType: string;
+  protected resourceType: string = 'Composition';
   protected meta: Meta;
   protected status: string;
   protected type: Type;
